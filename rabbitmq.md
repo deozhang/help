@@ -1,7 +1,7 @@
 #### docker拉取RabbitMQ镜像
 ```docker pull rabbitmq:management```
 
-#### 安装 RabbitMQ
+#### 运行 RabbitMQ 容器
 ```docker run --name rabbitmq -d -p 15672:15672 -p 5672:5672 rabbitmq:management```
 
 
