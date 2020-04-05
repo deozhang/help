@@ -4,8 +4,8 @@
 #### 查看是否已成功安装了 redis镜像
 ```docker images```
 
-#### 运行容器
-```docker run -itd --name redis-test -p 6379:6379 redis```
+#### 运行容器(--name后跟的是容器名)
+```docker run -itd --name redis -p 6379:6379 redis```
 
 #### 通过 redis-cli 连接测试使用 redis 服务
 ```docker exec -it redis-test /bin/bash```
