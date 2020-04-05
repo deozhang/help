@@ -19,4 +19,3 @@
 
 #### 查询密码是否设置成功
 ```config set requirepass "123"```
-
