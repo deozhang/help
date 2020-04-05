@@ -8,7 +8,7 @@
 ```docker run -itd --name redis -p 6379:6379 redis```
 
 #### 通过 redis-cli 连接测试使用 redis 服务
-```docker exec -it redis-test /bin/bash```
+```docker exec -it redis /bin/bash```
 ```redis-cli```
  
 #### 设置密码
